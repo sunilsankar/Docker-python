@@ -1,5 +1,4 @@
-FROM python:3.4-alpine3.8
-MAINTAINER Sunil Sankar "nagioskeeper@gmail.com "
+FROM python:2.7
 COPY . /app
 WORKDIR /app
 RUN pip install -r requirements.txt
